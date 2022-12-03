@@ -3,12 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.3",
+    "font-awesome": "^4.7.0",
+    "nanoid": "^4.0.0",
+    "random-words": "^1.2.0",
     "react": "^18.2.0",
+    "react-confetti": "^6.1.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-simple-keyboard": "^3.4.241",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

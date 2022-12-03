@@ -1,13 +1,117 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --green: #A2CCB6;
+  --yellow: #FCEEB5;
+  --peach: #EE786E;
+  --off-white: #FFFFF4;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wrapper{
+  min-height: 100vh;
+}
+
+span {
+  display: block;
+  margin-top: -5px;
+}
+
+
+.keyboard-button{
+  border: 3px solid #000000;
+  border-radius: 10px;
+  background: #000000;
+}
+
+.keyboard-row {
+  margin-top: 2px;
+  overflow: hidden;
+}
+
+.key {
+  width: 50px;
+  height: 50px;
+  float: left;
+  cursor: pointer;
+  background-color: var(--off-white);
+  color: #000000;
+  line-height: 50px;
+  text-align: center;
+  margin-left: 2px;
+  border-radius: 4px;
+  font-weight: 700;
+  user-select: none;
+}
+
+.key__symbols {
+  justify-content: center;
+ 
+}
+
+.key__delete {
+  width: 100px;
+}
+
+.key__oneandhalf {
+  width: 75px;
+}
+
+.key__esc {
+  background: var(--peach);
+}
+
+.key__enter {
+  width: 112px;
+}
+
+.key__caps {
+  width: 90px;
+}
+
+.key__shift-left {
+  width: 100px;
+}
+
+.key__spacebar {
+  width: 300px;
+}
+
+.key__bottom-funct {
+  width: 70px;
+}
+
+.key__arrow {
+  background: var(--green);
+}
+
+.feather {
+  margin-top: 10px;
+}
+
+.fa-arrow-turn-down{
+  rotate: 90deg;
+}
+
+/* .key:active {
+  transform: translateY(1px);
+  -webkit-box-shadow:
+  inset 0 0 2px #333,
+  0 0 3px #333;
+-moz-box-shadow: 
+  inset 0 0 2px #333,
+  0 0 3px #333;
+box-shadow: 
+  inset 0 0 2px #333,
+  0 0 3px #333;
+} */
+
+.keyAnimate {
+  transform: translateY(1px);
+  -webkit-box-shadow:
+  inset 0 0 2px #333,
+  0 0 3px #333;
+-moz-box-shadow: 
+  inset 0 0 2px #333,
+  0 0 3px #333;
+box-shadow: 
+  inset 0 0 2px #333,
+  0 0 3px #333;
 }
